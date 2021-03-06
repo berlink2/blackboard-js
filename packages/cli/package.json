@@ -1,5 +1,5 @@
 {
-  "name": "blackboard-js",
+  "name": "blackboard-js-cli",
   "version": "2.0.0",
   "description": "",
   "files": [
@@ -26,5 +26,6 @@
     "commander": "^7.1.0",
     "esbuild": "0.8.26",
     "typescript": "^4.2.3"
-  }
+  },
+  "gitHead": "7a9b8e8fd1860f7aabd6a8da33dff4be96ef4ac5"
 }

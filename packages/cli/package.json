@@ -1,7 +1,11 @@
 {
-  "name": "cli",
+  "name": "blackboard-js",
   "version": "1.0.0",
   "description": "",
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc --watch --preserveWatchOutput"
@@ -11,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^7.1.0",
-    "local-api": "^1.0.0"
+    "@blackboard-js/local-api": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.31",

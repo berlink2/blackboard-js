@@ -1,7 +1,11 @@
 {
-  "name": "local-api",
+  "name": "@blackboard-js/local-api",
   "version": "1.0.0",
   "description": "",
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,6 +24,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
-    "local-client": "^0.1.0"
+    "@blackboard-js/local-client": "^0.1.0"
   }
 }
